@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Video Options</title>
+    <script src="popup.js"></script>
+
+    <style>
+      button {
+        border-radius: 4px;
+        margin: 2px;
+        width: 100%;
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        padding: 0.5em 1em;
+        line-height: normal;
+        box-sizing: border-box;
+        border-width: 1px;
+        border-color: rgb(202, 60, 60);
+        background: #fff;
+        color: #111;
+      }
+      .active {
+        border-width: 0;
+        background: rgb(202, 60, 60);
+        color: #fff;
+      }
+      .flex {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <button id="videoSpeed1">1</button>
+      <button id="videoSpeed15">1.5</button>
+      <button id="videoSpeed175">1.75</button>
+      <button id="videoSpeed2">2</button>
+    </div>
+    <button id="videoSpeedLoop">loop</button>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Youtube Video Options",
+  "description": "This extension will give more video options",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
